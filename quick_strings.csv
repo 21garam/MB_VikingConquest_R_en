@@ -38,6 +38,8 @@ qstr_The_people_of_{s34}_|The people of {s34} hate you so much that the guards d
 qstr_A_livestock_epidemic|A livestock epidemic has killed {reg4} cattle in {s4}.
 qstr_A_livestock_epidemic_|A livestock epidemic has killed {reg5} sheep in {s4}.
 qstr_A_livestock_epidemic_h|A livestock epidemic has killed {reg4} cattle and {reg5} sheep in {s4}.
+qstr_You_receive_a_messag|You receive a message from {s1} demanding lands to support them in a style that befits them.
+qstr_You_receive_a_message|You receive a message from {s1} reminding you of your obligations to provide for your vassals.
 qstr_Your_men_made_some_d|Your men made some delicious butter from cow's milk.
 qstr_A_livestock_epidemic_ha|A livestock epidemic has killed {reg5} of your cattle at a farmstead near {s4}.
 qstr_A_livestock_epidemic_has|A livestock epidemic has killed {reg4} cattle and {reg5} of your cattle at a farmstead near {s4}.
@@ -48,8 +50,6 @@ qstr_{s1}_of_the_{s3}_has|{s1} of the {s3} has been released from captivity.
 qstr_{s1}_is_no_longer_in|{s1} is no longer infested by bandits at night.
 qstr_{s1}_has_won_the_tou|{s1} has won the tournament at {s2}.
 qstr_You_pay_for_accommod|You pay for accommodation.
-qstr_You_have_been_inform|You have been informed that, while you were busy, away from your home, your wife took a lover, a man known as {s33}. You discover that the rumors had already been flying.
-qstr_Adultery_Discovered|Adultery Discovered
 qstr__Your_tactics_skill_| Your tactics skill has increased by 1.
 qstr__Your_persuasion_ski| Your persuasion skill has increased by 1.
 qstr__Your_leadership_ski| Your leadership skill has increased by 1.
@@ -113,12 +113,14 @@ qstr_The_weather_changed_to:_|The weather changed to: 'High wind'
 qstr_The_weather_changed_to:__|The weather changed to: 'Gale'
 qstr_The_weather_changed_to:__S|The weather changed to: 'Storm'
 qstr_The_operation_of_the|The operation of the slave market in {s33} reduces your reputation.
+qstr_DEBUG_rebellion:_che|DEBUG rebellion: checking faction {s1} on day {reg1}
+qstr_DEBUG_rebellion:_fac|DEBUG rebellion: faction {s1} reborn on day {reg1}
 qstr__Possible_Rebellion_|(Possible Rebellion) Rumors say that {s14} is still alive.
-qstr__Possible_Rebellion__|(Possible Rebellion) Rumors say that {s14} meets in secret with his faithful.
-qstr__Possible_Rebellion__R|(Possible Rebellion) Rumors say that people favor the restoration of {s14}.
-qstr__Possible_Rebellion__Ru|(Possible Rebellion) Rumors say that {s14} is gathering an army to regain his throne.
-qstr__Possible_Rebellion__Rum|(Possible Rebellion) Rumors say that {s14} is stockpiling weapons.
-qstr__Possible_Rebellion__Rumo|(Possible Rebellion) Rumors say that {s14} is stockpiling weapons and is seeking support among the Franks.
+qstr__Possible_Rebellion__|(Possible Rebellion) Rumors say that {s14} is stockpiling weapons and is seeking support among the Franks.
+qstr__Possible_Rebellion__R|(Possible Rebellion) Rumors say that {s14} meets in secret with his faithful.
+qstr__Possible_Rebellion__Ru|(Possible Rebellion) Rumors say that people favor the restoration of {s14}.
+qstr__Possible_Rebellion__Rum|(Possible Rebellion) Rumors say that {s14} is gathering an army to regain his throne.
+qstr__Possible_Rebellion__Rumo|(Possible Rebellion) Rumors say that {s14} is stockpiling weapons.
 qstr__| 
 qstr_Congratulations!_You|Congratulations! You've managed to imprison seven or more lords at {s13}. You really are a true dungeon master.
 qstr_Dungeon_master_Achie|Dungeon master Achievement
@@ -777,12 +779,12 @@ qstr_{s13}_asked_you_to_gath|{s13} asked you to gather {reg3} head of cattle and
 qstr___He_hugs_you_tightl|--He hugs you tightly, like a bear.--
 qstr_You_ve_joined_your_ar|You've joined your army to that of {s11}, which is ready to march on the Saxons in Aescesdun. It seems that the fate of West Seaxe will be decided soon.
 qstr_{s9}_told_you_that_S|{s9} told you that Sven Bull Neck has gone to Readingum, where he has taken over. It's time to finish what started on the Woden Ric. Sven Bull Neck cannot escape again. Go to Readingum.
+qstr_You_already_have_my_|You already have my permission to do this. Please do not keep bothering me with the same matter.
 qstr_You_are_an_enemy_of_|You are an enemy of my kingdom.
 qstr_You_must_earn_my_tru|You must earn my trust if you want to recruit men in my land. Now, our relations are bad.
-qstr_Well_I_ve_come_to_kn|Well, I've come to know you, and it pleases me to allow it. Therefore, I hereby give notice that, if a man wants to join you, he will be free to do so, provided, as ever, that he is free of commitments to another lord.
 qstr_I_don_t_know_if_I_tr|I don't know if I trust you enough to take men from my land and lead them into battle. Prove yourself first, then come back and ask again.^^(150 or more Renown)
 qstr_No._I_do_not_know_wh|No. I do not know who you are. You must earn my trust if you want to recruit men in my land.^^(150 or more Renown and 5 or more positive relation needed)
-qstr_Unfortunately_I_have|Unfortunately, I have no fiefs to recruit from.
+qstr_Well_I_ve_come_to_kn|Well, I've come to know you, and it pleases me to allow it. Therefore, I hereby give notice that, if a man wants to join you, he will be free to do so, provided, as ever, that he is free of commitments to another lord.
 qstr_you|you
 qstr_You_are_challenging_|You are challenging me to a duel? How droll! As you wish, {playername}, it will be good sport to bash your head in.
 qstr_{s16}_and_{s17}|{s16} and {s17}
@@ -1127,7 +1129,7 @@ qstr_{reg1}.0|{reg1}.0
 qstr_{reg1}.00{reg2}|{reg1}.00{reg2}
 qstr_{reg1}.0{reg2}|{reg1}.0{reg2}
 qstr_{reg1}.{reg2}|{reg1}.{reg2}
-qstr_{s1}_|{s1} 
+qstr_{s1}_{s2}|{s1} {s2}
 qstr_Next_Page|Next Page
 qstr_Naval_Battle|Naval Battle
 qstr_Coastal_Assault__Off|Coastal Assault (Offense)
@@ -1421,6 +1423,7 @@ qstr_Second_Outfit|Second Outfit
 qstr_Read_Book|Read Book
 qstr_Retire|Retire
 qstr_Recruit_Prisoners|Recruit Prisoners
+qstr_Map_Colour|Map Colour
 qstr_Followers__Camp|Followers' Camp
 qstr_Visit_Camp|Visit Camp
 qstr_Check_Location|Check Location
@@ -1478,7 +1481,6 @@ qstr_Diplomacy|Diplomacy
 qstr_Armies|Armies
 qstr_Centers|Centers
 qstr_Rename|Rename
-qstr_Map_Colour|Map Colour
 qstr_Make_a_Royal_Decree:|Make a Royal Decree:^^Changing orders will take a few hours,^as messengers need time to reach your vassals.^Once you select your order click DONE for confirmation.
 qstr_Gather_Our_Forces|Gather Our Forces
 qstr_Defend_the_Kingdom|Defend the Kingdom
@@ -1514,11 +1516,10 @@ qstr_On_several_occasions|On several occasions throughout your life, you have se
 qstr_No_one_here_wants_to|No one here wants to join your party.
 qstr_One_{s3}_is_willing_|One {s3} is willing to follow you.
 qstr_{reg5}_{s3}_are_will|{reg5} {s3} are willing to follow you.
-qstr_You_need_to_get_the_|You need to get the permission of the lord of this place to recruit here.
 qstr_Recruit_them__{reg6}|Recruit them ({reg6} peningas).
 qstr_One_{s3}_volunteers_|One {s3} volunteers to follow you.
 qstr_{reg5}_{s3}_voluntee|{reg5} {s3} volunteer to follow you.
-qstr_You_need_to_get_the_p|You need to get the permission of the village leader to recruit here.
+qstr_You_need_to_get_the_|You need to get the permission of the village leader to recruit here.
 qstr_My_Boats|My Boats
 qstr_Boats_for_Sale|Boats for Sale
 qstr_No_ships_for_sale^in|No ships for sale^in this town.
@@ -1847,6 +1848,7 @@ qstr_{reg0}_town{reg1?s:}_{|{reg0} town{reg1?s:}, {s0}
 qstr_Your_opponents_are_r|Your opponents are ready for the fight.
 qstr_Try_to_destroy_as_ma|Try to destroy as many targets as you can. You have two and a half minutes to clear the track.
 qstr_Stay_behind_the_line|Stay behind the line on the ground and shoot the targets. Try not to waste any shots.
+qstr_trying_quest_{reg1}|trying quest {reg1}
 qstr_Garrison_Troops|Garrison Troops
 qstr_Camp_Troops|Camp Troops
 qstr_Refuge_Troops|Refuge Troops
@@ -2096,7 +2098,6 @@ qstr_You_dump_a_{s2}_in_o|You dump a {s2} in order to keep the {s0} that {s1} ha
 qstr_Unable_to_Equip_Item|Unable to Equip Item
 qstr_You_need_five_tool_k|You need five tool kits to improve your refuge!
 qstr_You_need_five_timber|You need five timber pallets to improve your refuge!
-qstr_No_staff_have_been_h|No staff have been hired.
 qstr_To_hire_workers_you_|To hire workers, you need to select them from the list. If the list is empty, you may need to increase your renown or improve your refuge for them to come and offer their services.
 qstr_Name:_Marcus.|Name: Marcus.
 qstr_Occupation:_This_cap|Occupation: This captain is already working for you.
@@ -2747,7 +2748,6 @@ qstr_You_think_of_Thora_wh|You think of Thora, who visits Egil every night. She 
 qstr_You_think_of_Thora_a|You think of Thora, a beautiful woman protected by her father. She does not have to worry about anything other than being happy.
 qstr_One_of_the_greatest_|One of the greatest battles known between West Seaxe and the Danes was fought here. You have memories of that day, because you took part in it.
 qstr_This_place_destroyed|This place, destroyed by your men, is nothing but ash and rubble.
-qstr_You_are_at_{s2}._{s9|You are at {s2}. {s9}
 qstr_Garrison:_{reg5}__li|Garrison: {reg5} (limit: {reg0})^^ Having your men garrison the refuge, like for castles and cities, allows them to rest away from the dangers of road and battle and reduces their maintenance cost.
 qstr_You_need_to_hire_a_c|You need to hire a cook first.
 qstr_It_is_night_and_your|It is night, and your refuge seems quiet, with some men watching while others are asleep.
@@ -3021,6 +3021,7 @@ qstr_One_lord_can_embark_|One lord can embark here with you.
 qstr_{reg1}_lords_can_emb|{reg1} lords can embark here with you.
 qstr_One_lord_will_lose_tr|One lord will lose track of you. He must embark at the next port and then come find you.
 qstr_{reg1}_lords_will_los|{reg1} lords will lose track of you. They must embark at the next port and then come find you.
+qstr_You_need_to_get_the_p|You need to get the permission of the lord of this place to recruit here.
 qstr_a_lone_boar|a lone boar
 qstr_a_herd_of_{reg6}_boa|a herd of {reg6} boar
 qstr_a_herd_of_{reg6}_wil|a herd of {reg6} wild animals
