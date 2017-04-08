@@ -794,23 +794,23 @@ trp_knight_9_8|Tiern Owain map Hywel
 trp_knight_9_8_pl|Owain map Hywel
 trp_knight_9_9|Tiern Llofan map Cilmin Broetu
 trp_knight_9_9_pl|Llofan map Cilmin Broetu
-trp_knight_10_1|Hersir Guledic
+trp_knight_10_1|영주 고이딕
 trp_knight_10_1_pl|Guledic
-trp_knight_11_1|Hersir Rhun map Arthgal
+trp_knight_11_1|영주 룬 마프 아스갈
 trp_knight_11_1_pl|Rhun map Arthgal
-trp_knight_11_2|Mael Echou map Rhun
+trp_knight_11_2|귀부인 에초 마프 룬
 trp_knight_11_2_pl|Echou map Rhun
-trp_knight_11_3|Dryhten Dyfnwal map Rhun
+trp_knight_11_3|영주 다이핀왈 마프 룬
 trp_knight_11_3_pl|Dyfnwal map Rhun
-trp_knight_11_4|Tiarna Giric map Rath
+trp_knight_11_4|귀부인 기릭 마프 라스
 trp_knight_11_4_pl|Giric map Rath
-trp_knight_11_5|Mael Cynon map Cyndrwyn
+trp_knight_11_5|귀부인 시논 마프 신드웬
 trp_knight_11_5_pl|Cynon map Cyndrwyn
-trp_knight_11_6|Mael Gwion map Cyndrwyn
+trp_knight_11_6|귀부인 기온 마프 신드웬
 trp_knight_11_6_pl|Gwion map Cyndrwyn
-trp_knight_11_7|Dryhten Madoc map Cadell
+trp_knight_11_7|영주 마독 마프 카델
 trp_knight_11_7_pl|Madoc map Cadell
-trp_knight_11_8|Dryhten Caradoc map Riwall
+trp_knight_11_8|영주 카라독 마프 리월
 trp_knight_11_8_pl|Caradoc map Riwall
 trp_knight_12_1|Guledic Eliud map Eferferdyn
 trp_knight_12_1_pl|Eliud map Eferferdyn
@@ -818,11 +818,11 @@ trp_knight_12_2|Guledic Alanorus map Eliud
 trp_knight_12_2_pl|Alanorus map Eliud
 trp_knight_12_3|Mael Ricatus map Dunyart
 trp_knight_12_3_pl|Ricatus map Dunyart
-trp_knight_13_1|Dryhten Meurig map Arthfael
+trp_knight_13_1|영주 마우리그 마프 아스파엘
 trp_knight_13_1_pl|Meurig map Arthfael
-trp_knight_13_2|Dryhten Owain map Hywel
+trp_knight_13_2|영주 오웨인 마프 하이웰
 trp_knight_13_2_pl|Owain map Hywel
-trp_knight_13_3|Dryhten Brochwael map Meurig
+trp_knight_13_3|영주 브로크웰 마프 마우리그
 trp_knight_13_3_pl|Brochwael map Meurig
 trp_knight_14_1|Mael Cathalan mac Indrechtaig
 trp_knight_14_1_pl|Cathalan mac Indrechtaig
@@ -1692,7 +1692,7 @@ trp_town_23_master_craftsman|양조장 장인
 trp_town_24_master_craftsman|Craftsman
 trp_town_25_master_craftsman|Craftsman
 trp_town_26_master_craftsman|양조장 장인
-trp_town_27_master_craftsman|Craftsman
+trp_town_27_master_craftsman|직조 장인
 trp_town_28_master_craftsman|Craftsman
 trp_town_29_master_craftsman|Craftsman
 trp_local_merchant|Local Merchant
@@ -1900,7 +1900,7 @@ trp_orm_robagranjas_pl|Orm Svarti
 trp_pagano|Godi Olafr
 trp_pagano_pl|Sacerdote
 trp_pseudo_troop_01|pt01
-trp_pseudo_troop_01_pl|172,62612,9,1581,105,5468,9,703,0,0,13,20,0,0,0,12,641,0,0,0,0,0,0,0/
+trp_pseudo_troop_01_pl|186,77699,0,0,7,218,0,0,0,0,14,21,0,0,0,12,641,0,0,0,0,0,0,0/
 trp_pseudo_troop_02|pt02
 trp_pseudo_troop_02_pl|
 trp_pseudo_troop_03|pt03
