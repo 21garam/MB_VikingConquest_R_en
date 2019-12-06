@@ -2610,7 +2610,7 @@ str_lord_indicted_dialog_approach_yes|And I would be honored to accept your pled
 str_lord_indicted_dialog_approach_no|I'm sorry. Your service is not required.
 str_lord_indicted_dialog_rejected|Indeed? Well, perhaps your reputation is misleading. Good day, {reg59?my lady:my lord} -- I go to see if another ruler in these lands is more appreciative of my talents.
 str__has_been_worried_about_bandits_establishing_a_hideout_near_his_home| has been worried about bandits establishing a hideout in his area.
-str_bandit_lair_quest_description|Find and destroy the {s9} and report back to {s11}.
+str_bandit_lair_quest_description|Find and destroy {s9} and report back to {s11}.
 str_reveal_ass|Someone attempted to murder you. You can try to find out who wanted you dead by meeting the killers' contact in {s3}.
 str_reveal_ass2|The contact has given away the lord who ordered the assassination - it is {s9}. It's time to confront the lord directly.
 str_bandit_hideout_preattack|You approach the hideout. The {s4} don't appear to have spotted you yet, and you could still sneak away unnoticed. The difficult approach to the site -- {s5} -- means that only a handful of troops in your party will be able to join the attack, and they will be unable to bring their horses. If your initial attack fails, the {s4} will easily be able to make their escape and disperse. Do you wish to attack the hideout, or wait for another occasion?
