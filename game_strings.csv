@@ -2828,8 +2828,8 @@ str_s43_also_you_should_know_that_an_unprovoked_assault_is_declaration_of_war|{s
 str_missing_after_battle|Missing after battle
 str_retrieve_garrison_warning|^(Troops might not be retrievable if this fortress is awarded to someone else)
 str_s12s15_declared_war_to_control_calradia|{s12}{s15} may attack {s16} without pretext, as a bid to extend control over all of these lands.
-str_offer_gift_description| improve my standing by offering a gift.
-str_resolve_dispute_description| improve my standing by resolving a dispute.
+str_offer_gift_description|improve my standing by offering a gift
+str_resolve_dispute_description|improve my standing by resolving a dispute
 str_feast_wedding_opportunity| If your betrothed and her family are present, then this may be an opportunity for you to celebrate the wedding.
 str_s21_the_s8_declared_war_as_part_of_a_bid_to_conquer_all_calradia|{s21}. The {s8} declared war with very little pretext, as part of a bid to conquer all of these lands.
 str_master_vinter|Master vintner

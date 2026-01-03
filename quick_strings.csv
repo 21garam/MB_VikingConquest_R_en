@@ -346,14 +346,10 @@ qstr___He_nods._You_note_|--He nods. You note the concern in his eyes.--
 qstr_{playername}_when_we|{playername}, when we started our long walk, few people had the courage to support me. Fewer still were willing to put their lives at risk for my cause, but you didn't hesitate to throw yourself at my enemies. We have gone through a lot together, and there were times I came close to losing all hope, but we prevailed. It is now time for me to leave your shield wall and take what's rightfully mine. From now on, I will carry out the great responsibility of ruling the {s3}. There still lie many challenges ahead, and I count on your help in overcoming those. Of course, you will always be my foremost vassal.
 qstr_Find_and_speak_with_|Find and speak with {s3} of the {s4} to give him your oath of homage.
 qstr__We_will_of_course_n| We will of course need to wait until the realm is no longer on campaign.
-qstr_I_do_not_like_this_b|I do not like this, but things are very bad. Can you give guarantees?
-qstr_Well_I_guess_I_can_a|Well, I guess I can admit defeat. I guess you will treat us well, no?
-qstr_Perhaps..._Do_you_gi|Perhaps... Do you give your word of honour that we'll be treated well?
-qstr_There_comes_a_time_w|There comes a time when every good leader must be responsible for the welfare of his men. Do you give your word of honour that we'll be treated well?
 qstr_The_fort_has_been_de|The fort has been defended by lions, and we leave it with our heads high. You can guarantee our safety?
-qstr_Well_I_guess_I_can_ad|Well, I guess I can admit defeat. We will leave the fort, but I want your promise that you will not attack us.
+qstr_Well_I_guess_I_can_a|Well, I guess I can admit defeat. We will leave the fort, but I want your promise that you will not attack us.
 qstr_We_are_ready_to_leav|We are ready to leave this fort to you and march away if you give me your word of honour that you'll let us leave unmolested.
-qstr_There_comes_a_time_wh|There comes a time when every good leader must be responsible for the welfare of his men. We leave the fort. I want your promise that you will not attack us.
+qstr_There_comes_a_time_w|There comes a time when every good leader must be responsible for the welfare of his men. We leave the fort. I want your promise that you will not attack us.
 qstr_You_re_nothing_but_s|You're nothing but scum. You should leave before we kill you.
 qstr_You_re_wasting_your_|You're wasting your time. Attack us -- if you have the courage.
 qstr_You_have_called_me_f|You have called me for this? We would never surrender to the likes of you.
@@ -2171,6 +2167,7 @@ qstr_{s1}___Slings:|{s1}   Slings:
 qstr_{s2}_|{s2}-
 qstr__Click_on_the_troop_|(Click on the troop to rotate it)^^Click on pieces of gear ^(helmet, armor, gloves and boots)^ to display them.
 qstr_Landing_near_{s2}|Landing near {s2}
+qstr_The_trainer_{s11}.|The trainer {s11}.
 qstr_{s0}^>_{s1}__{s2}__{|{s0}^> {s1}, '{s2}', {s3}, {s4}
 qstr_You_have_lost_the_tr|You have lost the traders because you landed without them.
 qstr_You_have_lost_the_tra|You have lost the traders because you embarked without them.
@@ -2382,9 +2379,7 @@ qstr_His_love_interest_is|His love interest is reported to be {s37}.
 qstr_{s1}^{s4}^Kingdom:_{|{s1}^{s4}^Kingdom: {s3}^Relation: {reg4}^Centers: {reg5}^{s5}{s47}
 qstr_This_lord_is_a_prison|This lord is a prisoner of {s10}
 qstr_Army_size:_{reg26}|Army size: {reg26}
-qstr_{s40}._His_love_intere|{s40}. His love interest is {s39}.
-qstr_{s40}._He_is_betroth|{s40}. He is betrothed to {s39}.
-qstr_{s1}^^{s4}^Kingdom:_|{s1}^^{s4}^Kingdom: {s3}^Relation: {reg4}^Centers: {reg5}^{s5}^{s47}
+qstr_{s1}^^{s4}^Relation:|{s1}^^{s4}^Relation: {reg4}^Centers: {reg5}^{s5}^{s47}
 qstr_{s1}^^{s2}_of_the_{s|{s1}^^{s2} of the {s3}^Relation {reg3}^Last visit {reg4} days ago
 qstr_{reg2}_warriors_acco|{reg2} warriors accompany the king.
 qstr_{s2}^^{reg2}_warrior|{s2}^^{reg2} warriors serve various lords of the kingdom.
@@ -2472,7 +2467,6 @@ qstr_Your_first_priority_|Your first priority should be to develop your possessi
 qstr_^^Welcome_to_Viking_|^^Welcome to Viking Conquest Reforged Edition^^^^{s2}^^{s3}
 qstr_In_the_storyline_you|In the storyline, you start as a hero with an uncertain fate.^Please read the following carefully, because the gameplay varies slightly from the sandbox campaign.
 qstr_The_story_follows_it|The story follows its own development path and the decisions you make may affect the world around you in addition to standard game mechanics. This means you won't be able to freely join any kingdom or serve any king, except when allowed to do so.^The behavior of the kingdoms, especially those important to story and in history, will follow the chronology of historical events as much as possible. As a result, these kingdoms may not be destroyed if they were not defeated historically.^Moreover, you won't be able to get rid of your companions, grant them fiefs, or make them vassals, as long as you're playing the storyline. As many of your companions are important to many missions, it is critical that they remain a part of your war band.^^It took many months to build and research Viking Conquest storyline, using historical sources, sagas, and deep love for Viking world. We do hope that you enjoy it as much as we did.
-qstr_The_trainer_{s11}.|The trainer {s11}.
 qstr_The_supply_box_will_|The supply box will be available {reg1?after {reg0} rounds:next round}.
 qstr_Head_armor_cannot_be|Head armor cannot be used with hoods and is being discarded for {s0}.
 qstr_You_can_t_sleep._You|You can't sleep. You can hear the constant crunch of the boat hull, smell sea brine, and feel the breeze caressing your face, but your eyes are closed and refuse to open. And your mind keeps dreaming, remembering other times, a past life that feels far away and that you remember less every day, even though not many months have passed since your departure.^^Now, the future is uncertain. Your journey has brought you to the Frisian Sea hoping to find news about an old sorcerer who takes care of all ills, because your mother is sick. For her you left everything behind, a world you knew like the back of your hand, and paid for passage on a north boat, a paunchy merchantman. It's slow and clumsy, but its captain has promised to take you to the remote part of Friese where the sorcerer lives.^^Your mother travels with you; nobody else has joined you. Her illness progresses, and there are days when she no longer recognizes you, but she appears to be completely sound at other times. Every morning you wake up not knowing which day it will be: will you be able to converse with her or will you have to tie her to a post so she does not fall overboard?^^You need to wake up, though your eyes oppose you and your mind boils with fever...^^One more effort. Your eyelids obey...
